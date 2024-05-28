@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+header{
+    background-color: blue;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+.menu p{
+    word-spacing: 50px;
+    cursor: pointer;
+}
+span{   
+    word-spacing: normal;
+}
+.logo{
+    width: 10%;
+}
+.logo img{
+    width: 100%;
+}
+.header{
+    width: 90%;
+    position: relative;
+    margin: auto;
+    display: inline-flex;
+}
+.menu{
+    width: 90%;
+    margin-top: 40px;
+}
+
+/*.right .text{
+    
+}*/
+
+.float .right .img{
+    float: right;
+}
+.float .right .text{
+    position: relative;
+    left: 10%;
+        top: 140px;
+        text-align: center;
+    width: 40%;
+}
+button{
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 50px;
+    background-image: radial-gradient(white, rgb(102, 102, 247));
+    font-weight: bold;
+    color: white;
+    transition: 2s ease;
+    text-shadow: 0px 2px 2px blue;
+    letter-spacing: 1px;
+}
+button:hover{
+    background-color: blue;
+}
+
+.float .left .img{
+    float: left;
+}
+.float .left{
+    clear: both;
+}
+.left .text{
+    width: 80%;
+    position: relative;
+    margin: 0 1px;
+    left: 50px;
+    top: 140px;
+    text-align: center;
+}
+
+
+.about{
+    background-color: white;
+    padding: 10px;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgb(178, 176, 176);
+    margin: 20px 9%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.about div{
+    padding: 10px;
+    margin: 20px 0px;
+}
+.about .img{
+    width: 28%;
+}
+.about .img img{
+    width: 100%;
+}
+.about .detail{
+    width: 28%;
+}
+.about .skill{
+    width: 48%;
+}
+.about .skill div{
+    line-height: 10px;
+}
+.about .skill span{
+    color: goldenrod;
+}
+.about .skill progress{
+    width: 100%;
+    padding: 20px;
+}
+.progress{
+    background-color: aqua;
+    width: 100%;
+    border-radius: 50px;
+}
+.progress .bar{
+    background-color: blue;
+    padding: 10px 0;
+    width: 55%;
+    border-radius: 50px;
+    color: white;
+    text-align: right;
+}
+
+
+footer{
+    background-color: blue;
+    padding: 10px 0;
+    clear: both;
+    text-align: center;
+    color: white;
+}
+
+
+.contact{
+    margin: 10px 0;
+    padding: 10px 0;
+    box-shadow: 0px 0px 10px black;
+    height: max-content;
+}
+.abs{
+    background-color: black;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+.abs img{
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+}
+.rel{
+    padding: 10px 0;
+    position: relative;
+    height: 500px;
+    color: white;
+    width: 80%;
+    margin: 0 10%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.rel div{
+    width: 47%;
+    padding: 10px;
+}
+.l-rel{
+    padding: 10px 0;
+    background-color: red;
+}
+
+.r-rel{
+    padding: 10px 0;
+    border: 2px solid blue;
+}
+.r-rel .form{
+    position: relative;
+    width: 90%;
+    margin: auto;
+    
+}
+.form div{
+    width: 100%;
+}
+.form input{
+    width: 90%;
+    height: 30px;
+    padding: 10px 0;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+}
+.form textarea{
+    width: 90%;
+    height: 100px;
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+    resize: none;
+}
+
